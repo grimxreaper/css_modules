@@ -5,13 +5,13 @@ body {
   background-color: #fffafb;
   text-align: center;
 }
-/* #page-title {
+#page-title {
   font-family: "Work Sans", sans-serif;
   color: #ff87c5;
   font-size: 47px;
-} */
+}
 
-/* button {
+button {
   color: white;
   border: none;
   cursor: pointer;
@@ -35,7 +35,7 @@ body {
   text-align: center;
   line-height: 1.1;
   position: relative;
-} */
+}
 
 button:active {
   transform: scale(0.9);
@@ -46,7 +46,7 @@ button:hover {
 
 }
 
-/* .topContainer {
+.topContainer {
   display: flex;
   flex-flow: row wrap-reverse;
   align-items: center;
@@ -55,9 +55,9 @@ button:hover {
   justify-self: center;
   padding: 0;
   margin: 0;
-} */
+}
 
-/* .labelContainer {
+.labelContainer {
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
@@ -67,7 +67,7 @@ button:hover {
 }
 .session-label {
   padding: 10px;
-} */
+}
 
 #break-decrement #break-increment {
   display: flex;
@@ -76,14 +76,14 @@ button:hover {
   justify-self: flex-start;
 }
 
-/* #break-label {
+#break-label {
   display: flex;
   flex-direction: row;
 }
 #session-label {
   display: flex;
   align-self: flex-start;
-} */
+}
 #iconBdown {
   position: absolute;
   top: 35%;
