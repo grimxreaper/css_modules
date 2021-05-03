@@ -1,4 +1,4 @@
-* {
+/* * {
   box-sizing: border-box;
 }
 body {
@@ -9,6 +9,13 @@ body {
   font-family: "Work Sans", sans-serif;
   color: #ff87c5;
   font-size: 47px;
+}
+
+h2 {
+  font-size: 22px;
+  text-transform: lowercase;
+  color: #585858;
+  font-family: "Open Sans", sans-serif;
 }
 
 button {
@@ -171,4 +178,4 @@ button:hover {
 .reset {
   padding: 8px;
   font-size: 15px;
-}
+} */
