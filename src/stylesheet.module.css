@@ -1,25 +1,27 @@
 * {
     box-sizing: border-box;
   }
-  body {
+
+body {
     background-color: #fffafb;
     text-align: center;
-  }
+    box-sizing: border-box;
+}
 
 .pageTitle {
     font-family: "Work Sans", sans-serif;
     color: #ff87c5;
     font-size: 47px;
-  }
+}
 
-  h2 {
+h2 {
     font-size: 22px;
     text-transform: lowercase;
     color: #585858;
     font-family: "Open Sans", sans-serif;
-  }
+}
   
-  button {
+button {
     color: white;
     border: none;
     cursor: pointer;
@@ -43,18 +45,17 @@
     text-align: center;
     line-height: 1.1;
     position: relative;
-  }
+}
   
-  button:active {
+button:active {
     transform: scale(0.9);
-  }
+}
   
-  button:hover {
+button:hover {
     opacity: 0.75;
+}
   
-  }
-  
-  .topContainer {
+.topContainer {
     display: flex;
     flex-flow: row wrap-reverse;
     align-items: center;
@@ -63,8 +64,8 @@
     justify-self: center;
     padding: 0;
     margin: 0;
-  }
-  
+}
+
   .labelContainer {
     display: flex;
     flex-flow: row nowrap;
@@ -72,6 +73,7 @@
   }
   .break-label {
     padding: 10px;
+
     display: flex;
     flex-direction: row;
   }
@@ -81,30 +83,20 @@
     align-self: flex-start;
   }
   
-  .breakDecrement {
-    display: flex;
+ /* .breakDecrement {
+    display: flexbox;
     flex-direction: column;
-    justify-self: flex-end;
     justify-self: flex-start;
   }
 
   .breakIncrement {
-    display: flex;
+    display: flexbox;
     flex-direction: column;
-    justify-self: flex-end;
     justify-self: flex-start;
   }
-  
-  /* #break-label {
-    display: flex;
-    flex-direction: row;
-  }
-  #session-label {
-    display: flex;
-    align-self: flex-start;
-  } */
+   */
 
-  #iconBdown {
+  .iconBdown {
     position: absolute;
     top: 35%;
     left: 50%;
@@ -117,7 +109,7 @@
     align-content: center;
   }
   
-  #iconSdown {
+  .iconSdown {
     position: absolute;
     top: 35%;
     left: 50%;
@@ -129,7 +121,7 @@
     line-height: 50%;
     align-content: center;
   }
-  #iconBup {
+  .iconBup {
     position: absolute;
     top: 65%;
     left: 50%;
@@ -141,7 +133,7 @@
     line-height: 50%;
     align-content: center;
   }
-  #iconSup {
+  .iconSup {
     position: absolute;
     top: 65%;
     left: 50%;
@@ -170,7 +162,7 @@
     color: rgb(43, 41, 42);
   }
   
-  .timer {
+  h4 {
     font-size: 38px;
     border: 6px solid rgb(250, 179, 158);
     border-radius: 7px;

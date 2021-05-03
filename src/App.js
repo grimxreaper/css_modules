@@ -130,7 +130,7 @@ class App extends React.Component {
   render() {
     const { minutes, seconds, cycle } = this.state;
     return (
-      <div>
+      <div className={styles.body}>
         <div>
           <h1 className={styles.pageTitle} id="page-title">
             Pomodoro Timer
@@ -142,14 +142,14 @@ class App extends React.Component {
           </div>
           <div className={styles.topContainer}>
             <div className={styles.timeLeft} id="time-left">
-              <h4 class="timer">
+              <h4 className={styles.timer} class="timer">
                 {minutes}:{seconds < 10 ? `0${seconds}` : seconds}{" "}
               </h4>
             </div>
           </div>
-          <div className="midContainer">
+          <div className={styles.midcontainer}>
             <button
-              className={styles.button}
+              className={`${styles.button} ${styles.start}`}
               id="start_stop"
               class="start"
               onClick={this.start_stop}
@@ -158,7 +158,7 @@ class App extends React.Component {
               {this.state.countdown ? "Stop" : "Start"}
             </button>
             <button
-              className={styles.button}
+              className={`${styles.button} ${styles.reset}`}
               class="reset"
               id="reset"
               onClick={this.onClick}
@@ -175,14 +175,14 @@ class App extends React.Component {
 
           <div className="container">
             <button
-              className={styles.button}
+              className={`${styles.button} ${styles.breakDecrement}`}
               id="break-decrement"
               onClick={this.break_decrement}
             >
               <FontAwesomeIcon icon={faSortDown} id="iconBdown" className={styles.iconBDown}/>
             </button>
             <button
-              className={`${styles.button} ${styles.breakDecrement}`}
+              className={`${styles.button} ${styles.breakIncrement}`}
               id="break-increment"
               onClick={this.break_increment}
             >
